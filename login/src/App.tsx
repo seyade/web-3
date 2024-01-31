@@ -7,7 +7,7 @@ import "./App.css";
 function App() {
 	const [connected, setConnected] = useState(false);
 	const [walletAddress, setWalletAddress] = useState("");
-	const [walletBalance, setWalletBalance] = useState(null);
+	const [walletBalance, setWalletBalance] = useState("");
 	const [networkName, setNetworkName] = useState("");
 
 	useEffect(() => {
