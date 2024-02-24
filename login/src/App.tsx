@@ -59,6 +59,7 @@ function App() {
 				const { name } = await provider.getNetwork();
 
 				setNetworkName(name);
+
 				setWalletAddress(accounts[0]);
 				setWalletBalance(formatEther(_balance));
 				setConnected(true);
